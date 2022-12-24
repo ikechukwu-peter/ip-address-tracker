@@ -31,6 +31,7 @@ const Map: FC<IMAP> = ({ data }) => {
       style={{
         width: "100vw",
         height: "100vh",
+        zIndex: 8,
       }}
     >
       <TileLayer
