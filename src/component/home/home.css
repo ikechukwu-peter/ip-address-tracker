@@ -1,0 +1,121 @@
+.parent {
+  position: relative;
+  background-color: #333;
+  background-image: url("../../assets/pattern-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.title {
+  color: #fff;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.search_container {
+  padding: 1rem 0rem 4rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: gray;
+  padding: 0.8rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  width: 100%;
+}
+
+.input:hover,
+.input:focus,
+.input:active {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.input::placeholder {
+  color: gray;
+  font-weight: 500;
+  overflow: visible;
+}
+
+.search_button {
+  border: none;
+  padding: 0.8rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.search_button:hover {
+  background-color: hsl(0, 0%, 17%);
+  cursor: pointer;
+}
+
+.info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  width: 60%;
+  margin: 8rem auto;
+  box-sizing: border-box;
+  box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.info {
+  text-align: left;
+}
+
+.info h2 {
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.info strong {
+  color: #000;
+  font-size: 1rem;
+  font-size: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .search_container {
+    width: 80%;
+  }
+
+  .input::placeholder {
+    font-size: 0.899rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .search_container {
+    width: 80%;
+  }
+
+  .input::placeholder {
+    font-size: 0.599rem;
+  }
+}
