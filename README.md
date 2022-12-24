@@ -1,8 +1,29 @@
-<h2 align="center">IP Address Tracker</h2>
+## IP Address Tracker
 
-## Description
+> IP address tracker gives information about any IP address that is provided to it..
 
-IP address tracker gives information about any IP address that is provided to it.
+![screenshot](./src/assets/project_image.jpg)
+
+## Built With 🌩️
+
+- React
+- LeafletJs
+
+## Live Demo ☁️
+
+[Live Demo Link](https://ip-address-tracker.vercel.app)
+
+## Getting Started ☀️
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Install Node and npm using the `npm install` command on your command line.
+
+### Setup
+
+Clone this repository by typing `git clone https://github.com/ikechukwu-peter/ip-address-tracker.git` on your terminal.
 
 ## Installation
 
@@ -22,3 +43,27 @@ $ yarn build
 # preview
 $ yarn preview
 ```
+
+### Usage
+
+Navigate to the project directory `cd ip-address-tracker`, and run `yarn dev`. Or, visit the live demo at: https://ip-address-tracker.vercel.app
+
+## Author
+
+👤 **Ikechukwu Peter**
+
+- GitHub: [@ikechukwu-peter](https://github.com/ikechukwu-peter)
+- Twitter: [@pete_iyke](https://twitter.com/pete_iyke)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-ikechukwu/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to geoipify and ipgeolocation for their awesome API.
+
+## 📝 License
+
+This project is [MIT] licensed.
