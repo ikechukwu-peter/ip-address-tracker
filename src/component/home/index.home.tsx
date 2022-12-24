@@ -42,7 +42,7 @@ const Home: FC<IHOME> = ({ data, query, setQuery, handleQuery }) => {
           </div>
           <div className="info">
             <h2>Timezone</h2>
-            <strong>{data?.timezone}</strong>
+            <strong>UTC {data?.timezone}</strong>
           </div>
           <div className="info">
             <h2>ISP</h2>
