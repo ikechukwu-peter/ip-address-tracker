@@ -22,11 +22,3 @@ $ yarn build
 # preview
 $ yarn preview
 ```
-
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-```
