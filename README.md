@@ -11,7 +11,7 @@
 
 ## Live Demo ☁️
 
-[Live Demo Link](https://ip-address-tracker.vercel.app)
+[Live Demo Link](https://ip-address-tracker-khaki-nine.vercel.app/)
 
 ## Getting Started ☀️
 
@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Install Node and npm using the `npm install` command on your command line.
+Install Node and npm using the `npm install` command on your command line, then install yarn using `npm install --global yarn`.
 
 ### Setup
 
@@ -46,7 +46,7 @@ $ yarn preview
 
 ### Usage
 
-Navigate to the project directory `cd ip-address-tracker`, and run `yarn dev`. Or, visit the live demo at: https://ip-address-tracker.vercel.app
+Navigate to the project directory `cd ip-address-tracker`, and run `yarn dev`. Or, visit the live demo at: https://ip-address-tracker-khaki-nine.vercel.app/
 
 ## Author
 
