@@ -1,7 +1,7 @@
-import { useState, lazy, Suspense, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { IPDATA } from "./@types/map";
-const Home = lazy(() => import("./component/home/index.home"));
 import { useIP } from "./hooks/useip.hooks";
+import { Home } from "./component/home";
 
 import "./App.css";
 
@@ -25,8 +25,6 @@ function App() {
       setData(response);
       setQuery("");
     }
-
-    console.log(key);
   };
 
   useEffect(() => {
@@ -48,9 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <Suspense fallback={"LOADING"}>
-        <Home {...props} />
-      </Suspense>
+      <Home {...props} />
     </div>
   );
 }
