@@ -2,8 +2,7 @@
   position: relative;
   background-color: rgb(35, 59, 194);
   background-image: url("../../assets/pattern-bg.png");
-  background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   z-index: 8;
 }
