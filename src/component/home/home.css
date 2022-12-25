@@ -1,6 +1,6 @@
 .parent {
   position: relative;
-  background-color: #333;
+  background-color: rgb(35, 59, 194);
   background-image: url("../../assets/pattern-bg.png");
   background-position: center;
   background-size: cover;

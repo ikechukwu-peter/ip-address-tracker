@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { IPDATA } from "./@types/map";
-import { useIP } from "./hooks/useip.hooks";
+import { useIP } from "./hooks/useip";
 import { Home } from "./component/home";
 
 import "./App.css";
