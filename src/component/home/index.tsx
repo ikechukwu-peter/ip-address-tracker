@@ -1,8 +1,8 @@
-import React, { lazy, Suspense, FC, useEffect } from "react";
+import React, { FC } from "react";
 import { MdOutlineArrowRight } from "react-icons/md";
-const Map = lazy(() => import("../map"));
-import "./home.css";
 import { IHOME } from "../../@types/home";
+import { Map } from "../map";
+import "./home.css";
 
 export const Home: FC<IHOME> = ({ data, query, setQuery, handleQuery }) => {
   const onSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -52,9 +52,7 @@ export const Home: FC<IHOME> = ({ data, query, setQuery, handleQuery }) => {
         </div>
       )}
 
-      <Suspense fallback={"LOADING"}>
-        <Map data={data} />
-      </Suspense>
+      <Map data={data} />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import { IMAP } from "../@types/map";
 
 import "leaflet/dist/leaflet.css";
 
-const Map: FC<IMAP> = ({ data }) => {
+export const Map: FC<IMAP> = ({ data }) => {
   //custom icon
   const customIcon = new L.Icon({
     iconUrl: customMarker,
@@ -45,5 +45,3 @@ const Map: FC<IMAP> = ({ data }) => {
     </MapContainer>
   );
 };
-
-export default Map;
