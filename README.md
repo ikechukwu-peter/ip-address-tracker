@@ -2,7 +2,7 @@
 
 > IP address tracker gives information about any IP address that is provided to it..
 
-![screenshot](./src/assets/project_image.jpg)
+![screenshot](./src/assets/ip-address-tracker.jpg)
 
 ## Built With 🌩️
 
